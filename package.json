@@ -10,8 +10,8 @@
     "dist:mac": "CSC_IDENTITY_AUTO_DISCOVERY=false DEBUG=electron-builder electron-builder --mac",
     "dist": "electron-builder .",
     "dist:linux": "electron-builder --linux --ia32 --x64",
-    "dist:linux32": "electron-builder --linux --ia32",
-    "dist:linux64": "electron-builder --linux --x64",
+    "dist:linux32": "electron-builder --linux --armv7l",
+    "dist:linux64": "electron-builder --linux --arm64",
     "dist:win": "electron-builder --win --ia32 --x64",
     "dist:win32": "electron-builder --win --ia32",
     "dist:win64": "electron-builder --win --x64"
